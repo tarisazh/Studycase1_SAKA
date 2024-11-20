@@ -1,0 +1,68 @@
+.breadcrumb {
+  display: flex;
+  justify-content: center; /* Agar breadcrumb berada di tengah secara horizontal */
+  padding: 8px 16px; /* Padding di sekitar breadcrumb */
+  background-color: #3080cf; /* Warna latar belakang breadcrumb */
+  border-radius: 4px; /* Membuat sudut breadcrumb menjadi melengkung */
+  text-align: center; /* Mengatur teks agar berada di tengah */
+  color: white;
+}
+
+.breadcrumb--small {
+  padding: 4px 8px; /* Ukuran padding yang lebih kecil untuk small breadcrumb */
+  color: white;
+}
+
+.breadcrumb--medium {
+  padding: 8px 16px; /* Ukuran padding yang sedang untuk medium breadcrumb */
+  color: white;
+}
+
+.breadcrumb--large {
+  padding: 12px 24px; /* Ukuran padding yang lebih besar untuk large breadcrumb */
+  color: white;
+}
+
+.breadcrumb--custom {
+  background-color: black; /* Warna latar belakang custom */
+  color: #007bff; /* Warna teks custom */
+  color: white;
+}
+
+/* Tambahkan kelas untuk ukuran font berdasarkan type */
+.breadcrumb-font--small {
+  font-size: 12px; /* Ukuran font kecil */
+  color: white;
+}
+
+.breadcrumb-font--medium {
+  font-size: 16px; /* Ukuran font sedang */
+  color: white;
+}
+
+.breadcrumb-font--large {
+  font-size: 20px; /* Ukuran font besar */
+  color: white;
+}
+
+.breadcrumb-item {
+  display: inline-flex; /* Untuk membuat item breadcrumb menjadi inline dan fleksibel */
+  align-items: center; /* Mengatur item breadcrumb agar berada di tengah secara vertikal */
+}
+
+.breadcrumb-item a {
+  color: inherit; /* Warna teks link mengikuti warna teks breadcrumb */
+  text-decoration: none; /* Menghapus underline default pada link */
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline; /* Menambahkan underline saat link dihover */
+}
+
+.breadcrumb-separator {
+  margin: 0 8px; /* Memberikan jarak horizontal pada separator */
+}
+
+.breadcrumb-home-icon {
+  margin-right: 4px; /* Menambahkan jarak di sebelah kanan ikon rumah */
+}
